@@ -1,0 +1,123 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+input {
+  font-size: 1.5rem;
+  padding-bottom: 4px;
+  margin-bottom: 1.5rem;
+}
+.title {
+  /* color: #1a1a1a; */
+  font-size: 1.8rem;
+  margin-left: 10px;
+  margin-right: 20px;
+  text-transform: capitalize;
+}
+/* .list {
+  background: white;
+  margin-bottom: 1rem;
+} */
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  margin: 0.4rem 0.3rem;
+  padding: 7px;
+  font-size: 0.8em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  text-transform: capitalize;
+  /* transition: border-color 0.25s; */
+}
+/* button:hover {
+  border-color: #646cff;
+} */
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+.delete {
+  background: rgb(255, 44, 44);
+  transition: background 0.5s ease;
+}
+.delete:hover {
+  background: rgb(119, 11, 11);
+}
+.add {
+  background: rgb(40, 199, 18);
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  font-size: 1rem;
+  margin: 0;
+  transition: background 0.5s ease;
+}
+.add:hover {
+  background: rgb(32, 116, 7);
+}
+.up,
+.down {
+  background: rgb(12, 159, 204);
+  transition: background 0.5s ease;
+}
+.up:hover {
+  background: rgb(10, 94, 109);
+}
+.down:hover {
+  background: rgb(10, 94, 109);
+}
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+.line-through {
+  text-decoration: line-through;
+}
+
+span {
+  font-size: 2rem;
+  padding: 1rem;
+  text-transform: capitalize;
+}
